@@ -23,5 +23,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # run database migration commands
 #RUN python manage.py makemigrations && python manage.py migrate
 
-# run entrypoint.sh
-ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
+# run entrypoint.dev.sh
+ENTRYPOINT ["/usr/src/app/entrypoint.dev.sh"]
