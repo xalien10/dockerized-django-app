@@ -1,0 +1,5 @@
+.idea
+.env.dev.db
+.env.dev.web
+static
+media
