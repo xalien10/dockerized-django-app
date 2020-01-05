@@ -1,7 +1,7 @@
 # dockerized-django-app
 Small demo django app with docker
 
-#Docker commands
+# Docker commands
 1. docker-compose -f docker-compose.prod.yml up -d --build
 
 2. docker-compose -f docker-compose.prod.yml down -v
